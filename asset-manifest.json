@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e28d2914.css",
+    "main.js": "/static/js/main.f556be1b.js",
+    "static/media/Google SC.jpg": "/static/media/Google SC.6a7c0625f8fbdb2c2947.jpg",
+    "static/media/Google Analytics.jpg": "/static/media/Google Analytics.ac04f4bae6c3b3075257.jpg",
+    "static/media/React JS.jpg": "/static/media/React JS.7a98e129c303b89f2db5.jpg",
+    "static/media/hfl.jpg": "/static/media/hfl.1d21e5d09b3b67fd3b89.jpg",
+    "static/media/Bootstrap.jpg": "/static/media/Bootstrap.7c29141e928e796c2bc5.jpg",
+    "static/media/Redux.jpg": "/static/media/Redux.62ee872decb633492591.jpg",
+    "static/media/JavaScript.jpg": "/static/media/JavaScript.6b76ce92000f14db692e.jpg",
+    "static/media/Python.jpg": "/static/media/Python.4d14ebfed2373348925f.jpg",
+    "static/media/jQuery.jpg": "/static/media/jQuery.b89eba5a443b67b7ec6c.jpg",
+    "static/media/HTML5.jpg": "/static/media/HTML5.e18cf1fd79df282febae.jpg",
+    "static/media/CSS3.jpg": "/static/media/CSS3.6bb6749e416974832c27.jpg",
+    "static/media/Sass.jpg": "/static/media/Sass.492c99ece556cad63d77.jpg",
+    "static/media/Github.jpg": "/static/media/Github.da2a5f9b89476adc8331.jpg",
+    "index.html": "/index.html",
+    "main.e28d2914.css.map": "/static/css/main.e28d2914.css.map",
+    "main.f556be1b.js.map": "/static/js/main.f556be1b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e28d2914.css",
+    "static/js/main.f556be1b.js"
+  ]
+}

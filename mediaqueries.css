@@ -1,0 +1,908 @@
+/*---------------Media query para HD---------------*/
+
+@media (min-width: 1280px){
+
+/*Configuración del header fijo horizontal*/
+
+.header-principal{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*Configuración título de la página (mi nombre)*/
+
+.titulo-pagina{
+    font-size: 28px;
+    padding-left: 15px;
+}
+
+/*Configuración del menú horizontal (vertical oculto)*/
+
+.menu{
+    align-items: center;
+}
+
+.menu .item-menu{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu .item-menu a{
+    font-size: 22px;
+}
+
+/*Configuración parte # 1: "About me"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal{
+    padding-top: 125px;
+    padding-bottom: 50px;
+}
+
+/*Configuración frase inicial*/
+
+.frase-inicial{
+    font-size: 45px;
+    padding-bottom: 25px;
+}
+
+/*Configuración contenedor imagen + imagen principal*/
+
+.contenedor-imagen{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.imagen-principal{
+    border-radius: 10px;
+}
+
+/*Configuración de texto introductorio*/
+
+.texto{
+    font-size: 25px;
+}
+
+.desplegar{
+    display: none;
+}
+
+/*Configuración parte # 2: "programming and development skills"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-dos{
+    padding-bottom: 50px;
+}
+
+/*Configuración titulo del apartado*/
+
+.conocimiento-programacion{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+
+/*Configuración parte # 3: "education"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-tres{
+    padding-bottom: 50px;
+}
+
+/*Configuración titulo del apartado*/
+
+.formacion-academica{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+
+/*Configuración parte # 5: "my achievements"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-cuatro{
+    padding-bottom: 50px;
+}
+
+/*Configuración titulo del apartado*/
+
+.logros{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+
+/*Configuración parte # 6: "my hobbies"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-cinco{
+    padding-bottom: 50px;
+}
+
+/*Configuración titulo del apartado*/
+
+.pasatiempos{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+
+/*Configuración footer*/
+
+.contenedor-principal-footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mensaje-footer, .mensaje-footer-dos{
+    font-size: 25px;
+}
+
+.mensaje-footer-dos{
+    padding-bottom: 10px;
+}
+
+.boton-footer{
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+.boton-footer a{
+    font-size: 20px;
+}
+
+}
+
+/*---------------Media query para FHD---------------*/
+
+@media (min-width: 1920px){
+
+/*Configuración del header fijo horizontal*/
+
+.header-principal{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*Configuración título de la página (mi nombre)*/
+
+.titulo-pagina{
+    font-size: 45px;
+    padding-left: 20px;
+}
+
+/*Configuración del menú horizontal (vertical oculto)*/
+
+.menu{
+    align-items: center;
+}
+
+.menu .item-menu{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.menu .item-menu a{
+    font-size: 35px;
+}
+
+/*Configuración parte # 1: "About me"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal{
+    padding-top: 210px;
+    padding-bottom: 50px;
+}
+
+/*Configuración frase inicial*/
+
+.frase-inicial{
+    font-size: 70px;
+    padding-bottom: 35px;
+}
+
+/*Configuración contenedor imagen + imagen principal*/
+
+.contenedor-imagen{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.imagen-principal{
+    border-radius: 20px;
+}
+
+/*Configuración de texto introductorio*/
+
+.texto{
+    font-size: 40px;
+}
+
+/*Configuración parte # 2: "programming and development skills"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-dos{
+    padding-bottom: 75px;
+}
+
+/*Configuración titulo del apartado*/
+
+.conocimiento-programacion{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    font-size: 60px;
+}
+
+/*Configuración parte # 3: "education"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-tres{
+    padding-bottom: 75px;
+}
+
+/*Configuración titulo del apartado*/
+
+.formacion-academica{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    font-size: 60px;
+}
+
+/*Configuración parte # 5: "my achievements"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-cuatro{
+    padding-bottom: 75px;
+}
+
+/*Configuración titulo del apartado*/
+
+.logros{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    font-size: 60px;
+}
+
+/*Configuración parte # 6: "my hobbies"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-cinco{
+    padding-bottom: 75px;
+}
+
+/*Configuración titulo del apartado*/
+
+.pasatiempos{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    font-size: 60px;
+}
+
+/*Configuración footer*/
+
+.contenedor-principal-footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.mensaje-footer, .mensaje-footer-dos{
+    font-size: 40px;
+}
+
+.mensaje-footer-dos{
+    padding-bottom: 20px;
+}
+
+.boton-footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+}
+
+.boton-footer a{
+    font-size: 30px;
+}
+
+}
+
+/*---------------Media query para QHD---------------*/
+
+@media (min-width: 2560px){
+
+/*Configuración del header fijo horizontal*/
+
+.header-principal{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*Configuración título de la página (mi nombre)*/
+
+.titulo-pagina{
+    font-size: 60px;
+    padding-left: 40px;
+}
+
+/*Configuración del menú horizontal (vertical oculto)*/
+
+.menu{
+    align-items: center;
+}
+
+.menu .item-menu{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.menu .item-menu a{
+    font-size: 48px;
+}
+
+/*Configuración parte # 1: "About me"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal{
+    padding-top: 275px;
+    padding-bottom: 75px;
+}
+
+/*Configuración frase inicial*/
+
+.frase-inicial{
+    font-size: 100px;
+    padding-bottom: 35px;
+}
+
+/*Configuración contenedor imagen + imagen principal*/
+
+.contenedor-imagen{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.imagen-principal{
+    border-radius: 30px;
+}
+
+/*Configuración de texto introductorio*/
+
+.texto{
+    font-size: 50px;
+}
+
+/*Configuración parte # 2: "programming and development skills"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-dos{
+    padding-bottom: 100px;
+}
+
+/*Configuración titulo del apartado*/
+
+.conocimiento-programacion{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 70px;
+    font-size: 80px;
+}
+
+/*Configuración parte # 3: "education"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-tres{
+    padding-bottom: 100px;
+}
+
+/*Configuración titulo del apartado*/
+
+.formacion-academica{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 70px;
+    font-size: 80px;
+}
+
+/*Configuración parte # 5: "my achievements"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-cuatro{
+    padding-bottom: 100px;
+}
+
+/*Configuración titulo del apartado*/
+
+.logros{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 70px;
+    font-size: 80px;
+}
+
+/*Configuración parte # 6: "my hobbies"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-cinco{
+    padding-bottom: 100px;
+}
+
+/*Configuración titulo del apartado*/
+
+.pasatiempos{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 70px;
+    font-size: 80px;
+}
+
+/*Configuración footer*/
+
+.contenedor-principal-footer{
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.mensaje-footer, .mensaje-footer-dos{
+    font-size: 55px;
+}
+
+.mensaje-footer-dos{
+    padding-bottom: 40px;
+}
+
+.boton-footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+
+}
+
+.boton-footer a{
+    font-size: 40px;
+}
+
+}
+
+/*---------------Media query para UHD---------------*/
+
+@media (min-width: 3840px){
+
+/*Configuración del header fijo horizontal*/
+
+.header-principal{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}   
+
+/*Configuración título de la página (mi nombre)*/
+
+.titulo-pagina{
+    font-size: 90px;
+    padding-left: 80px;
+}
+
+/*Configuración del menú horizontal (vertical oculto)*/
+
+.menu{
+    align-items: center;
+}
+
+.menu .item-menu{
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.menu .item-menu a{
+    font-size: 70px;
+}
+
+/*Configuración parte # 1: "About me"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal{
+    padding-top: 425px;
+    padding-bottom: 175px;
+}
+
+/*Configuración frase inicial*/
+
+.frase-inicial{
+    font-size: 150px;
+    padding-bottom: 70px;
+}
+
+/*Configuración contenedor imagen + imagen principal*/
+
+.contenedor-imagen{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.imagen-principal{
+    border-radius: 40px;
+}
+
+/*Configuración de texto introductorio*/
+
+.texto{
+    font-size: 75px;
+}
+
+/*Configuración parte # 2: "programming and development skills"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-dos{
+    padding-bottom: 150px;
+}
+
+/*Configuración titulo del apartado*/
+
+.conocimiento-programacion{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    font-size: 125px;
+}
+
+/*Configuración parte # 3: "education"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-tres{
+    padding-bottom: 150px;
+}
+
+/*Configuración titulo del apartado*/
+
+.formacion-academica{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    font-size: 125px;
+}
+
+/*Configuración parte # 5: "my achievements"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-cuatro{
+    padding-bottom: 150px;
+}
+
+/*Configuración titulo del apartado*/
+
+.logros{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    font-size: 125px;
+}
+
+/*Configuración parte # 6: "my hobbies"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-cinco{
+    padding-bottom: 150px;
+}
+
+/*Configuración titulo del apartado*/
+
+.pasatiempos{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    font-size: 125px;
+}
+
+/*Configuración footer*/
+
+.contenedor-principal-footer{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.mensaje-footer, .mensaje-footer-dos{
+    font-size: 75px;
+}
+
+.mensaje-footer-dos{
+    padding-bottom: 75px;
+}
+
+.boton-footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+
+}
+
+.boton-footer a{
+    font-size: 60px;
+}
+
+}
+
+/*---------------Media query para UHD 8K---------------*/
+
+@media (min-width: 7680px){
+
+/*Configuración del header fijo horizontal*/
+
+.header-principal{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}   
+
+/*Configuración título de la página (mi nombre)*/
+
+.titulo-pagina{
+    font-size: 180px;
+    padding-left: 100px;
+}
+
+/*Configuración del menú horizontal (vertical oculto)*/
+
+.menu{
+    align-items: center;
+    width: 90%;
+}
+
+.menu .item-menu{
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.menu .item-menu a{
+    font-size: 140px;
+}
+
+/*Configuración parte # 1: "About me"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal{
+    padding-top: 775px;
+    padding-bottom: 250px;
+}
+
+/*Configuración frase inicial*/
+
+.frase-inicial{
+    font-size: 275px;
+    padding-bottom: 125px;
+}
+
+/*Configuración contenedor imagen + imagen principal*/
+
+.contenedor-imagen{
+    margin-left: 225px;
+    margin-right: 225px;
+}
+
+.imagen-principal{
+    border-radius: 50px;
+}
+
+/*Configuración de texto introductorio*/
+
+.texto{
+    font-size: 150px;
+}
+
+/*Configuración parte # 2: "programming and development skills"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-dos{
+    padding-bottom: 300px;
+}
+
+/*Configuración titulo del apartado*/
+
+.conocimiento-programacion{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 200px;
+    font-size: 225px;
+}
+
+/*Configuración parte # 3: "education"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-tres{
+    padding-bottom: 300px;
+}
+
+/*Configuración titulo del apartado*/
+
+.formacion-academica{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 200px;
+    font-size: 225px;
+}
+
+/*Configuración parte # 5: "my achievements"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-cuatro{
+    padding-bottom: 300px;
+}
+
+/*Configuración titulo del apartado*/
+
+.logros{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 200px;
+    font-size: 225px;
+}
+
+/*Configuración parte # 6: "my hobbies"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-cinco{
+    padding-bottom: 300px;
+}
+
+/*Configuración titulo del apartado*/
+
+.pasatiempos{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 200px;
+    font-size: 225px;
+}
+
+/*Configuración footer*/
+
+.contenedor-principal-footer{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.mensaje-footer, .mensaje-footer-dos{
+    font-size: 150px;
+}
+
+.mensaje-footer-dos{
+    padding-bottom: 125px;
+}
+
+.boton-footer{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin-bottom: 75px;
+
+}
+
+.boton-footer a{
+    font-size: 125px;
+}
+
+}
+
+/*---------------Media query para celulares y tablets---------------*/
+
+@media (max-width: 360px){
+
+/*Bloquear el menú horizontal y sus componentes*/
+
+.menu{
+    display: none;
+}
+
+.titulo-pagina{
+    display: none;
+}
+
+/*Fin bloquear el menú horizontal y sus componentes*/
+
+.header-principal{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.titulo-pagina-movil{
+    display: flex;
+    position: fixed;
+    top: 20px;
+    right: 15px;
+}
+
+.fa-laptop-code{
+    color: #fff;
+    font-size: 40px;
+}
+
+.menu-vertical{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    position: fixed;
+    left: 15px;
+    top: 25px;
+}
+
+.contenedor-boton-menu{
+    display: none;
+    flex-direction: column;
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 30px;
+}
+
+.item-menu-vert{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 15px;
+    background-color: #494E6B;
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-menu-vert a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+}
+
+.submenu-vertical{
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    left: 15px;
+    top: 25px;
+}
+
+.subitem-menu-vert{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 15px;
+    background-color: #192231;
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.subitem-menu-vert a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+}

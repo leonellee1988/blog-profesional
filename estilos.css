@@ -1,0 +1,296 @@
+/*Paleta de colores
+
+#494E6B STORMY
+#98878F CLOUD
+#985E6D SUNSET
+#192231 EVENING
+
+*/
+
+/*Configuración general de la página*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+}
+
+/*Configuración del header fijo horizontal*/
+
+.header-principal{
+    width: 100vw;
+    background-color: #192231;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 1;
+}
+
+/*Configuración título de la página (mi nombre)*/
+
+.titulo-pagina{
+    width: 15%;
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.titulo-pagina-movil{
+    display: none;
+}
+
+/*Configuración del menú horizontal (vertical oculto)*/
+
+.menu-vertical{
+    display: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    width: 75%;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu .item-menu{
+    float: left;
+    padding-left: 30px;
+}
+
+.menu .item-menu a{
+    text-decoration: none;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+
+#proyectos{
+    cursor: pointer;
+}
+
+.visible{
+    display: block;
+}
+
+/*Configuración parte # 1: "About me"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background-color: #fff;
+}
+
+/*Configuración frase inicial*/
+
+.frase-inicial{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+/*Configuración contenedor imagen + imagen principal*/
+
+.contenedor-imagen{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-principal{
+    width: 100%;
+}
+
+/*Configuración de texto introductorio*/
+
+.parrafo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.texto{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/*Configuración mix imagen + texto introductorio*/
+
+.contenedor-inicio{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/*Configuración parte # 2: "programming and development skills"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-dos{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    background-color: #494E6B ;
+}
+
+/*Configuración titulo del apartado*/
+
+.conocimiento-programacion{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 40px;
+    color: #fff;
+}
+
+/*Configuración contenedor de aplicación # 1*/
+
+#root{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*Configuración parte # 3: "education"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-tres{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    background-color: #985E6D;
+}
+
+/*Configuración titulo del apartado*/
+
+.formacion-academica{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 40px;
+    color: #fff;
+}
+
+/*Configuración contenedor de aplicación # 2*/
+
+#rootTwo{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*Configuración parte # 4: "my projects" (desplegable vertical con links de las páginas hechas)*/
+
+/*Configuración parte # 5: "my achievements"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-cuatro{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    background-color: #98878F;
+}
+
+/*Configuración titulo del apartado*/
+
+.logros{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 40px;
+    color: #000;
+}
+
+/*Configuración contenedor de aplicación # 4*/
+
+#rootFour{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*Configuración parte # 6: "my hobbies"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-cinco{
+    background-color: #494E6B;
+    padding-bottom: 50px;
+}
+
+/*Configuración titulo del apartado*/
+
+.pasatiempos{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 40px;
+    color: #fff;
+}
+
+/*Configuración footer*/
+
+#contacto{
+    width: 100vw;
+    height: auto;
+    background-color: #192231;
+}
+
+.contenedor-principal-footer{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mensaje-footer, .mensaje-footer-dos{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+.mensaje-footer-dos{
+    padding-bottom: 10px;
+}
+
+.boton-footer{
+    width: 60%;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #494E6B;
+
+}
+
+.boton-footer a{
+    color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
