@@ -822,7 +822,7 @@
     display: none;
 }
 
-/*Fin bloquear el menú horizontal y sus componentes*/
+/*Configuración de cabecera principal + menú vertical*/
 
 .header-principal{
     padding-top: 40px;
@@ -903,6 +903,150 @@
     font-family: 'Didact Gothic', sans-serif;
     font-size: 20px;
     font-weight: bolder;
+}
+
+/*Configuración parte # 1: "About me"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal{
+    width: 100vw;
+    padding-top: 110px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+}
+
+/*Configuración frase inicial*/
+
+.frase-inicial{
+    font-size: 35px;
+    padding-bottom: 25px;
+}
+
+/*Configuración contenedor imagen + imagen principal*/
+
+.contenedor-inicio{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-imagen{
+    width: 90%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+}
+
+.imagen-principal{
+    width: 70%;
+    border-radius: 5px;
+}
+
+/*Configuración de texto introductorio*/
+
+.parrafo{
+    width: 90%;
+}
+
+.texto{
+    font-size: 18px;
+}
+
+/*Configuración parte # 2: "programming and development skills"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-dos{
+    padding-bottom: 25px;
+}
+
+/*Configuración titulo del apartado*/
+
+.conocimiento-programacion{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    font-size: 30px;
+}
+
+/*Configuración parte # 3: "education"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-tres{
+    padding-bottom: 25px;
+}
+
+/*Configuración titulo del apartado*/
+
+.formacion-academica{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    font-size: 30px;
+}
+
+/*Configuración parte # 5: "my achievements"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-cuatro{
+    padding-bottom: 25px;
+}
+
+/*Configuración titulo del apartado*/
+
+.logros{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    font-size: 30px;
+}
+
+/*Configuración parte # 6: "my hobbies"*/
+
+/*Configuración de contenedores*/
+
+.contenedor-principal-cinco{
+    padding-bottom: 25px;
+}
+
+/*Configuración titulo del apartado*/
+
+.pasatiempos{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    font-size: 30px;
+}
+
+/*Configuración footer*/
+
+.contenedor-principal-footer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.mensaje-footer, .mensaje-footer-dos{
+    font-size: 18px;
+}
+
+.mensaje-footer-dos{
+    padding-bottom: 5px;
+}
+
+.boton-footer{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+
+}
+
+.boton-footer a{
+    font-size: 15px;
 }
 
 }
