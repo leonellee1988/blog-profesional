@@ -910,10 +910,12 @@
 /*Configuración de contenedores*/
 
 .contenedor-principal{
-    width: 100vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-top: 110px;
-    padding-bottom: 25px;
-    padding-left: 15px;
+    padding-bottom: 40px;
 }
 
 /*Configuración frase inicial*/
@@ -927,7 +929,6 @@
 
 .contenedor-inicio{
     width: 90%;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -941,8 +942,8 @@
 }
 
 .imagen-principal{
-    width: 70%;
-    border-radius: 5px;
+    width: 75%;
+    border-radius: 10px;
 }
 
 /*Configuración de texto introductorio*/
@@ -960,7 +961,7 @@
 /*Configuración de contenedores*/
 
 .contenedor-principal-dos{
-    padding-bottom: 25px;
+    padding-bottom: 40px;
 }
 
 /*Configuración titulo del apartado*/
@@ -977,7 +978,7 @@
 /*Configuración de contenedores*/
 
 .contenedor-principal-tres{
-    padding-bottom: 25px;
+    padding-bottom: 40px;
 }
 
 /*Configuración titulo del apartado*/
@@ -994,7 +995,7 @@
 /*Configuración de contenedores*/
 
 .contenedor-principal-cuatro{
-    padding-bottom: 25px;
+    padding-bottom: 40px;
 }
 
 /*Configuración titulo del apartado*/
