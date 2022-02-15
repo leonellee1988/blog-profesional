@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cf542b61.css",
-    "main.js": "/static/js/main.7459419f.js",
+    "main.css": "/static/css/main.49e09e97.css",
+    "main.js": "/static/js/main.0d76be18.js",
     "static/media/React JS.jpg": "/static/media/React JS.7a98e129c303b89f2db5.jpg",
     "static/media/hfl.jpg": "/static/media/hfl.1d21e5d09b3b67fd3b89.jpg",
     "static/media/MySQL.jpg": "/static/media/MySQL.a2d3c46a97d3b5fe3b21.jpg",
@@ -16,11 +16,11 @@
     "static/media/PHP.jpg": "/static/media/PHP.066ed64ef8c94388b541.jpg",
     "static/media/Github.jpg": "/static/media/Github.da2a5f9b89476adc8331.jpg",
     "index.html": "/index.html",
-    "main.cf542b61.css.map": "/static/css/main.cf542b61.css.map",
-    "main.7459419f.js.map": "/static/js/main.7459419f.js.map"
+    "main.49e09e97.css.map": "/static/css/main.49e09e97.css.map",
+    "main.0d76be18.js.map": "/static/js/main.0d76be18.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf542b61.css",
-    "static/js/main.7459419f.js"
+    "static/css/main.49e09e97.css",
+    "static/js/main.0d76be18.js"
   ]
 }
