@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.70313963.css",
+    "main.css": "/static/css/main.604780a9.css",
     "main.js": "/static/js/main.d4293ec3.js",
     "static/media/React JS.jpg": "/static/media/React JS.7a98e129c303b89f2db5.jpg",
     "static/media/hfl.jpg": "/static/media/hfl.1d21e5d09b3b67fd3b89.jpg",
@@ -16,11 +16,11 @@
     "static/media/PHP.jpg": "/static/media/PHP.066ed64ef8c94388b541.jpg",
     "static/media/Github.jpg": "/static/media/Github.da2a5f9b89476adc8331.jpg",
     "index.html": "/index.html",
-    "main.70313963.css.map": "/static/css/main.70313963.css.map",
+    "main.604780a9.css.map": "/static/css/main.604780a9.css.map",
     "main.d4293ec3.js.map": "/static/js/main.d4293ec3.js.map"
   },
   "entrypoints": [
-    "static/css/main.70313963.css",
+    "static/css/main.604780a9.css",
     "static/js/main.d4293ec3.js"
   ]
 }
