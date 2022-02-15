@@ -509,6 +509,10 @@
 
 /*Configuración del menú horizontal (vertical oculto)*/
 
+.menu-vertical{
+    display: none;
+}
+
 .menu{
     align-items: center;
 }
@@ -520,6 +524,20 @@
 
 .menu .item-menu a{
     font-size: 22px;
+}
+
+#desplegar {
+    width: 15%;
+    display: none;
+    position: absolute;
+    background-color: #494E6B;
+}
+
+.item-menu-uno{
+    width: 95%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 /*Configuración parte # 1: "About me"*/
